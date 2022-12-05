@@ -1,3 +1,9 @@
+:root
+
+{
+font-family: Arial, sans-serif
+}
+
 /* Dropdown Button */
 .dropbtn {
   background-color: black;
@@ -16,11 +22,12 @@
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: right;
   background-color: #f1f1f1;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  
 }
 
 /* Links inside the dropdown */
@@ -38,4 +45,22 @@
 .dropdown:hover .dropdown-content {display: block;}
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.dropdown:hover .dropbtn {background-color: black;}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 10px;
+}
