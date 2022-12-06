@@ -1,0 +1,372 @@
+/* screen - ausgang-1 */
+
+.ausgang-1 {
+  align-items: flex-start;
+  background-color: var(--ebb);
+  display: flex;
+  flex-direction: column;
+  height: 2895px;
+  overflow: hidden;
+  width: 1920px;
+}
+
+.ausgang-1 .overlap-group5 {
+  height: 126px;
+  margin-left: 0;
+  position: relative;
+  width: 1959px;
+}
+
+.ausgang-1 .logo {
+  height: 108px;
+  left: 45px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 220px;
+}
+
+.ausgang-1 .men {
+  align-items: flex-start;
+  display: flex;
+  height: 61px;
+  left: 1649px;
+  min-width: 310px;
+  padding: 0.0px 122.0px;
+  position: absolute;
+  top: 37px;
+}
+
+.ausgang-1 .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 80px;
+  margin-top: 63px;
+  min-width: 1464px;
+}
+
+.ausgang-1 .zurck-pfeil {
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 86px;
+  margin-top: 65px;
+  width: 86px;
+}
+
+.ausgang-1 .overlap-group {
+  height: 404px;
+  margin-left: 248px;
+  position: relative;
+  width: 372px;
+}
+
+.ausgang-1 .ausgang {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 120px;
+  font-weight: 700;
+  left: 5px;
+  letter-spacing: 0;
+  line-height: 120px;
+  position: absolute;
+  top: 54px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .filter {
+  align-items: flex-end;
+  align-self: flex-end;
+  display: flex;
+  height: 51px;
+  margin-bottom: 5px;
+  margin-left: 420px;
+  min-width: 338px;
+}
+
+.ausgang-1 .overlap-group2 {
+  height: 52px;
+  margin-bottom: -0.5px;
+  position: relative;
+  width: 338px;
+}
+
+.ausgang-1 .overlap-group1 {
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 338px;
+}
+
+.ausgang-1 .overlap-group-1 {
+  height: 15px;
+  position: relative;
+  width: 93px;
+}
+
+.ausgang-1 .text-41 {
+  left: 145px;
+  letter-spacing: 0;
+  line-height: 13px;
+  position: absolute;
+  text-align: center;
+  top: 6px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .text-42 {
+  height: 26px;
+  left: 282px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.ausgang-1 .button {
+  background-color: var(--black);
+  height: 51px;
+  left: 262px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+}
+
+.ausgang-1 .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  min-height: 2258px;
+  width: 1920px;
+}
+
+.ausgang-1 .place {
+  letter-spacing: 0;
+  line-height: 40px;
+  margin-bottom: -4px;
+  margin-left: 114px;
+  min-height: 46px;
+  min-width: 111px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .gruppe-279 {
+  background-color: var(--white);
+  display: flex;
+  height: 87px;
+  margin-top: 28px;
+  width: 1172px;
+}
+
+.ausgang-1 .bierhbeli {
+  letter-spacing: 0;
+  line-height: 39px;
+  margin-bottom: -7px;
+  margin-left: 101px;
+  min-height: 51px;
+  min-width: 163px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .text-39 {
+  letter-spacing: 0;
+  line-height: 39px;
+  margin-bottom: -7px;
+  margin-left: 72px;
+  min-height: 51px;
+  min-width: 90px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .text-40 {
+  letter-spacing: 0;
+  line-height: 39px;
+  margin-bottom: -7px;
+  margin-left: 170px;
+  min-height: 51px;
+  min-width: 39px;
+  white-space: nowrap;
+}
+
+.ausgang-1 .overlap-group3 {
+  height: 1583px;
+  margin-right: 2.0px;
+  margin-top: 3px;
+  position: relative;
+  width: 1646px;
+}
+
+.ausgang-1 .rechteck-1498 {
+  background-color: var(--energy-yellow);
+  height: 1005px;
+  left: 157px;
+  opacity: 0.74;
+  position: absolute;
+  top: 578px;
+  width: 1489px;
+}
+
+.ausgang-1 .rechteck-1497 {
+  background-color: var(--milan);
+  height: 988px;
+  left: 0;
+  opacity: 0.63;
+  position: absolute;
+  top: 192px;
+  width: 1454px;
+}
+
+.ausgang-1 .vereinigungsmenge-44 {
+  height: 1489px;
+  left: 237px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 1173px;
+}
+
+.ausgang-1 .pfad-226 {
+  height: 236px;
+  left: 397px;
+  object-fit: cover;
+  position: absolute;
+  top: 155px;
+  width: 236px;
+}
+
+.ausgang-1 .pfad-227 {
+  height: 118px;
+  left: 711px;
+  object-fit: cover;
+  position: absolute;
+  top: 160px;
+  width: 474px;
+}
+
+.ausgang-1 .neon-party-1 {
+  height: 97px;
+  left: 711px;
+  letter-spacing: 0;
+  line-height: 70px;
+  position: absolute;
+  top: 296px;
+  width: 558px;
+}
+
+.ausgang-1 .komponente-41-5 {
+  cursor: pointer;
+  display: flex;
+  height: 89px;
+  left: 1319px;
+  position: absolute;
+  top: 72px;
+  width: 42px;
+}
+
+.ausgang-1 .x {
+  color: var(--black);
+  flex: 1;
+  font-family: var(--font-family-arial-regular);
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-bottom: -34.5px;
+  margin-right: -2px;
+  margin-top: 32.5px;
+  white-space: nowrap;
+  width: 42px;
+}
+
+.ausgang-1 .lorem-ipsum-dolor-si {
+  color: var(--black);
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  height: 1025px;
+  left: 397px;
+  letter-spacing: 0;
+  line-height: 39px;
+  position: absolute;
+  top: 419px;
+  width: 924px;
+}
+
+.ausgang-1 .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--black);
+  display: flex;
+  height: 266px;
+  justify-content: flex-end;
+  margin-top: 101px;
+  min-width: 1920px;
+  padding: 55px 187px;
+}
+
+.ausgang-1 .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 125px;
+  width: 113px;
+}
+
+.ausgang-1 .ber-uns {
+  display: flex;
+  height: 30px;
+  width: 90px;
+}
+
+.ausgang-1 .ber-uns-1 {
+  flex: 1;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-bottom: -2px;
+  margin-right: -2px;
+  width: 90px;
+}
+
+.ausgang-1 .komponente-34-19 {
+  align-self: flex-end;
+  display: flex;
+  height: 32px;
+  justify-content: space-between;
+  width: 186px;
+}
+
+.ausgang-1 .ber-uns-2 {
+  display: flex;
+  margin-top: 2.1px;
+  width: 125px;
+}
+
+.ausgang-1 .komponente-33-19 {
+  display: flex;
+  height: 27px;
+  justify-content: space-between;
+  margin-top: 17px;
+  width: 155px;
+}
+
+.ausgang-1 .komponente-32-19 {
+  display: flex;
+  height: 34px;
+  justify-content: space-between;
+  margin-top: 14px;
+  width: 181px;
+}
+
+.ausgang-1 .flex-col-2 {
+  align-items: flex-start;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 36.0px;
+  margin-left: 159px;
+  min-height: 80px;
+  width: 210px;
+}
