@@ -3,7 +3,10 @@
 {
 font-family: Arial, sans-serif
 }
-
+.flex-container {
+  display: flex;
+  background-color: black;
+}
 /* Dropdown Button */
 .dropbtn {
   background-color: black;
