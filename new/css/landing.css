@@ -316,7 +316,7 @@
   width: 690px;
 }
 
-.landing .bierhbeli {
+.landing .bierhuebeli {
   align-items: flex-start;
   display: flex;
   min-width: 690px;
@@ -381,7 +381,7 @@
   width: 16px;
 }
 
-.landing .pfad-114 {
+.landing .marker {
   flex: 1;
   margin-bottom: 0;
   margin-left: 1.0px;
@@ -398,7 +398,7 @@
   width: 103px;
 }
 
-.landing .berner-bhnen {
+.landing .berner-buehnen {
   flex: 1;
   letter-spacing: 0;
   line-height: 24px;
@@ -415,7 +415,7 @@
   width: 345px;
 }
 
-.landing .rechteck-84 {
+.landing .rechteck_rot {
   background-color: #d6607a;
   height: 380px;
   left: 0;
@@ -522,7 +522,7 @@
   width: 345px;
 }
 
-.landing .rechteck-84-1 {
+.landing .rechteck_gruen {
   background-color: #93d486;
   height: 380px;
   left: 0;
@@ -612,7 +612,7 @@
   width: 112px;
 }
 
-.landing .rechteck-84-2 {
+.landing .rechteck_gelb {
   background-color: var(--milan);
   opacity: 0.6;
   width: 345px;
