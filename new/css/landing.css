@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 3962px;
   overflow: hidden;
-  width: 1920px;
+  width: 100%;
 }
 
 .landing .flex-col {
@@ -17,13 +17,13 @@
   flex-direction: column;
   margin-left: 0;
   min-height: 1358px;
-  width: 1943px;
+  width: 100%;
 }
 
 .landing .overlap-group7 {
   height: 126px;
   position: relative;
-  width: 1943px;
+  width: 100%;
 }
 
 .landing .men {
@@ -854,37 +854,102 @@
 }
 
 
-/* Change the background color on mouse-over */
-.header a:hover {
-  background-color: #82C6B9;
-  color: black;
-}
 
-/* Style the active/current link*/
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
 
-/* Float the link section to the right */
+/* Float the link section to the right 
 .header-right {
 display: flex;
 flex-direction: row;
 gap: 30px;
+color: white;
 }
 
 .header-right a {
 font-family: Arial, Helvetica, sans-serif;
-color: white;
+display: block;
+color: inherit;
 }
 
+.header-right p:hover {
+  color: #d0b3d0;
+  text-decoration: underline;
 
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */ 
+}
+*/
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other 
 @media screen and (max-width: 500px) {
   .header a {
     display: block;
     text-align: left;
   }
-  .header-right {
-  }
+}
+ */
+:root {
+  --background: rgb(144, 112, 112);
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #93d486;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.content {
+  height: 200vh;
+  background-color: #d6607a;
+  background-blend-mode: multiply;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+/* Navigation Style */
+
+header {
+background: var(--background);
+text-align: center;
+position: fixed;
+width: 100%;
+z-index: 999;
+}
+
+nav {
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  left: 0;
+  background: var(--background);
+  width: 100%;
+  opacity: 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+margin-left: 1em;
+margin-bottom: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #bb7eba;
+}
+
+.nav-toggle:checked ~ nav {
+  opacity: 1;
 }
