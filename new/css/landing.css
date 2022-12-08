@@ -1002,3 +1002,18 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+
+@media screen and (min width: 800px) {
+  .nav-toggle-label {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr aut minman(600px, 1fr) 1fr;
+  }
+
+.logo {
+  grid-column: 2 / span: 1;
+}
+}
