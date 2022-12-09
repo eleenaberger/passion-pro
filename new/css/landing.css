@@ -887,7 +887,7 @@ color: inherit;
  */
 
 :root {
-  --background: rgb(155, 87, 87);
+  --background: #000;
 }
 
 *, *::before, *::after {
@@ -912,10 +912,10 @@ body {
 /* Navigation Style */
 
 header {
-background: var(--background);
+background: #000000;
 text-align: center;
 position: fixed;
-height: 100px;
+height: 11%;
 z-index: 999;
 width: 100%;
 }
@@ -978,7 +978,7 @@ nav {
 }
 
 nav ul {
-  margin: 0;
+  margin: 1.2% 0 0 0;
   padding: 0;
   list-style: none;
 }
@@ -986,6 +986,7 @@ nav ul {
 nav li {
 margin-left: 1em;
 margin-bottom: 1em;
+margin-top: 1.5%;
 }
 
 nav a {
@@ -1001,6 +1002,19 @@ nav a:hover {
   color: rgb(255, 255, 255);
 }
 
+.Logo {
+  position: absolute;
+  left: 48%;
+  width: 4%;
+}
+
+.Navlogo {
+  position: absolute;
+  left: 48%;
+  width: 4%;
+  display: none;
+}
+
 .nav-toggle:checked ~ nav {
   transform: scale(1,1);
 }
@@ -1009,6 +1023,8 @@ nav a:hover {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+
+
 
 @media screen and (min-width: 800px) {
   .nav-toggle-label {
@@ -1043,6 +1059,10 @@ nav li {
   margin-bottom: 0;
 }
 
+nav li:last-child {
+  margin-right: 3em;
+} 
+
 nav a {
   opacity: 1;
   position: relative
@@ -1066,4 +1086,34 @@ nav a::before {
 
 nav a:hover::before {
   transform: scale(1,1);
+}
+
+
+@media screen and (max-width: 800px) {
+  .Logo {
+    display: none;
+  }
+
+  .Navlogo {
+    display: block;
+    margin-top: 30px;
+    width: 30px;
+  }
+
+}
+
+
+@media(max-with: 767px){
+  .header {
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+
+/*responsive*/
+@media(max-with: 574px){
+  .header {
+  width: 100%;
+  margin-bottom: 30px;
+}
 }
