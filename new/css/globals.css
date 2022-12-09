@@ -562,7 +562,7 @@ padding: 0 15px;
   position: absolute;
   left:0;
   bottom: -10px;
-  background-color: #e91e63;
+  background-color: #ffffff;
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -616,6 +616,22 @@ background-color: #ffffff;
 /*responsive*/
 @media(max-with: 574px){
   .footer-col {
+  width: 100%;
+  margin-bottom: 30px;
+}
+}
+
+/*responsive*/
+@media(max-with: 767px){
+  .header {
+  width: 50%;
+  margin-bottom: 30px;
+}
+}
+
+/*responsive*/
+@media(max-with: 574px){
+  .header {
   width: 100%;
   margin-bottom: 30px;
 }
