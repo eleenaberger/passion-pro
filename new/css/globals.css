@@ -235,26 +235,6 @@
   width: 56px;
 }
 
-.rechteck-1495 {
-  background-color: #82c6b9;
-  height: 352px;
-  left: 0;
-  opacity: 0.89;
-  position: absolute;
-  top: 0;
-  width: 372px;
-}
-
-.rechteck-1496 {
-  background-color: #95ddb8;
-  height: 341px;
-  left: 52px;
-  opacity: 0.43;
-  position: absolute;
-  top: 63px;
-  width: 297px;
-}
-
 .rechteck-130 {
   background-color: var(--white);
   border: 5px solid;
@@ -377,18 +357,6 @@
   position: absolute;
   top: 11px;
   width: 333px;
-}
-
-.rechteck-130-1 {
-  background-color: var(--white);
-  border: 5px solid;
-  border-color: var(--black);
-  border-radius: 4px 0px 0px 4px;
-  height: 51px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 263px;
 }
 
 .filter-1 {
