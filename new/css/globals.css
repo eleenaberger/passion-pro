@@ -126,16 +126,16 @@
   width: 15.32px;
 }
 
-.facebook {
+/* .facebook {
   flex: 1;
   letter-spacing: 0;
   line-height: 20px;
   margin-bottom: -2px;
   margin-right: -2px;
   width: 125px;
-}
+} */
 
-.komponente-30-1 {
+/* .komponente-30-1 {
   background-image: url(../img/pfad-39-1@1x.png);
   background-position: 50% 50%;
   background-size: cover;
@@ -147,48 +147,49 @@
   display: flex;
   margin-top: 0.1px;
   width: 87px;
-}
+} */
 
-.twitter {
+/* .twitter {
   flex: 1;
   letter-spacing: 0;
   line-height: 20px;
   margin-bottom: -2px;
   margin-right: -2px;
-  width: 87px;
-}
+  width: 87px;}
+  */
 
-.komponente-31-1 {
+
+/* .komponente-31-1 {
   background-image: url(../img/pfad-40-1@1x.png);
   background-position: 50% 50%;
   background-size: cover;
   margin-bottom: 3.9px;
   width: 29.61px;
-}
+} */
 
-.impressum-2 {
+/* .impressum-2 {
   display: flex;
   margin-top: 3.6px;
   width: 113px;
-}
+} */
 
-.instagram {
+/* .instagram {
   flex: 1;
   letter-spacing: 0;
   line-height: 20px;
   margin-bottom: -2px;
   margin-right: -2px;
   width: 113px;
-}
+} */
 
-.newsletter-anmeldung {
+/* .newsletter-anmeldung {
   letter-spacing: 0;
   line-height: 20px;
   min-height: 24px;
   white-space: nowrap;
-}
+} */
 
-.required-field {
+/* .required-field {
   align-items: flex-end;
   border: 1px solid;
   border-color: var(--white);
@@ -222,7 +223,7 @@
   margin-top: 12px;
   min-height: 104px;
   white-space: nowrap;
-}
+} */
 
 .backward-arrow {
   background-image: url(../img/pfad-10-1@1x.png);
@@ -636,3 +637,5 @@ background-color: #ffffff;
   margin-bottom: 30px;
 }
 }
+
+.header 
