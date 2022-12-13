@@ -594,7 +594,6 @@ background-color: #ffffff;
 
 .ausgang-1 {
   align-items: flex-start;
-  background-color: var(--ebb);
   display: flex;
   flex-direction: column;
   height: 2895px;
