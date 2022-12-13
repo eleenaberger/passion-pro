@@ -22,3 +22,12 @@ border-bottom: 1px solid black;
 .table-text {
   text-align: center;
 }
+
+.table-text{
+  height: 79px;
+  letter-spacing: 0;
+  line-height: 70px;
+  margin-right: 624.0px;
+  margin-top: 21px;
+  width: 546px;
+}
