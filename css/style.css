@@ -787,11 +787,13 @@ background-color: #ffffff;
 }
 
 .ausgang-1 .overlap-group3 {
+  display: flex;
   height: 1583px;
   margin-right: 2.0px;
   margin-top: 3px;
   position: relative;
   width: 1646px;
+  justify-content: center;
 }
 
 .ausgang-1 .rechteck-1498 {
@@ -2829,9 +2831,9 @@ nav a:hover::before {
   display: flex;
   height: 87px;
   left: 238px;
-  position: absolute;
+  box-sizing: border-box;
   top: 0;
-  width: 1172px;
+  
 }
 
 .ausgang .gruppe-282 {
