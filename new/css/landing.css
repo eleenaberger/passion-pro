@@ -1102,7 +1102,6 @@ nav a:hover::before {
 
 }
 
-
 @media(max-with: 767px){
   .header {
   width: 50%;
