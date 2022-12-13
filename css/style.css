@@ -491,11 +491,16 @@
   min-width: 60px;
   padding: 12.5px 21.0px;
 }
-*{
+
+/* FOOTER-------------------------------------------------------- */
+.footer {
+  background-color: black;
+  padding: 70px 0;
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  padding-bottom: 20px;
 }
+
 .container {
   max-width: 1170px;
   margin: auto;
@@ -507,10 +512,7 @@
 ul{
   list-style: none;
 }
-.footer {
-  background-color: black;
-  padding: 70px 0;
-}
+
 
 .footer-col {
 width: 25%;
@@ -524,6 +526,7 @@ padding: 0 15px;
   margin-bottom: 35px;
   font-family: "Arial-Bold";
   position: relative;
+  text-align: left; /* Force text to left */
 }
 
 .footer-col h4::before {
@@ -549,6 +552,7 @@ padding: 0 15px;
   color: #bbbbbb;
   display: block;
   transition: all 0.3s ease;
+  text-align: left;
 }
 
 .footer-col ul li a:hover{
@@ -573,7 +577,7 @@ padding: 0 15px;
 color: #24262b;
 background-color: #ffffff;
 }
-
+/* MEDIA QUERIES------------------------------------------ */
 /*responsive*/
 @media(max-with: 767px){
   .footer-col {
@@ -3715,12 +3719,4 @@ font-family: Arial, sans-serif
 /* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
-}
-
-
-
-.footer {
-  background-color: black;
-  text-align: center;
-  padding: 10px;
 }
