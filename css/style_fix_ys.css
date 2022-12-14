@@ -1,0 +1,33 @@
+table {
+margin-top: 20px;
+width: 80%;   /* container width */
+margin: 0 auto;  /* Center container */
+background-color: white;
+text-align: center;
+
+border: 1px solid black;    /* container border */
+}
+
+#table-header {
+padding: 15px;
+font-weight: bold;
+border: none;
+border-bottom: 1px solid black;
+}
+
+.table-event {
+  padding: 15px;
+}
+
+.table-text {
+  text-align: center;
+}
+
+.table-text{
+  height: 79px;
+  letter-spacing: 0;
+  line-height: 70px;
+  margin-right: 624.0px;
+  margin-top: 21px;
+  width: 546px;
+}
