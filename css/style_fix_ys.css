@@ -104,7 +104,8 @@ width: 80%;   /* container width */
 margin: 0 auto;  /* Center container */
 background-color: white;
 text-align: center;
-border: 1px solid black;    /* container border */
+border: 1px solid white;    /* container border */
+border-collapse: collapse; 
 }
 
 .test {
@@ -120,8 +121,13 @@ font-family: Arial, Helvetica, sans-serif;
 font-size: var(--font-size-xl)
 }
 
-.table-event {
+#clubs .table-event {
+  border-top: 5px solid var(--milan);
+}
+
+#house_parties .table-event {
   padding: 15px;
+  border-top: 5px solid var(--milan);
 }
 
 .table-text {

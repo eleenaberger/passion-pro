@@ -1,0 +1,11 @@
+header {
+  background-color: black;
+}
+
+/* Add styles for navigation bar */
+
+@media (max-width: 800px) {
+  header {
+    /* Add styles for burger icon here */
+  }
+}
