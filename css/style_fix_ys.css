@@ -142,3 +142,7 @@ font-size: var(--font-size-xl)
   margin-top: 21px;
   width: 546px;
 }
+
+.top-events poppins-bold-black-130px {
+margin: 100px;
+}
