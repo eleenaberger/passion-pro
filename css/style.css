@@ -2427,7 +2427,7 @@ background-color: #ffffff;
   white-space: nowrap;
 }
 
-.ausgang .weissenbhl {
+.ausgang .weissenbühl {
   letter-spacing: 0;
   line-height: 39px;
   margin-bottom: -7px;
@@ -2545,7 +2545,7 @@ background-color: #ffffff;
   white-space: nowrap;
 }
 
-.ausgang .lnggasse {
+.ausgang .länggasse {
   letter-spacing: 0;
   line-height: 39px;
   margin-bottom: -7px;
@@ -3317,13 +3317,58 @@ header {
   width: 698px;
 }
 
+.Titel-über-uns{
+  align-items: center;
+  background-color: floralwhite;
+  display: flex;
+  height: 150px;
+  margin-left: 600px;
+  min-width: 656px;
+  padding: 44.5px 60px;
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 120px;
+  font-weight: 700;
+  left: 5px;
+  line-height: 120px;
+  position: absolute;
+  top: 54px;
+  white-space: nowrap;
+}
+
+.Text-Passion-Pro {
+margin-bottom: 40px;
+margin-top: 40px;
+}
+
+.name-elena {
+margin-bottom: 20px;
+}
+
+.name-sophia {
+margin-bottom: 20px;
+}
+
+.name-lina {
+margin-bottom: 20px;
+}
+
+.name-pascal {
+margin-bottom: 20px;
+}
+
+.name-maurice {
+margin-bottom: 20px;
+}
+
 .web-1920-1 .besch-elena {
   align-items: flex-start;
   background-color: #93d48632;
   display: flex;
-  height: 250px;
-  margin-left: 120px;
+  height: 120px;
+  margin-left: 200px;
   margin-top: 8px;
+  margin-bottom: 40px;
   min-width: 656px;
   padding: 44.5px 60px;
 }
@@ -3332,9 +3377,10 @@ header {
   align-items: flex-start;
   background-color: #929ECD70;
   display: flex;
-  height: 250px;
-  margin-left: 34px;
+  height: 120px;
+  margin-right: 200px;
   margin-top: 8px;
+  margin-bottom: 40px; 
   min-width: 656px;
   padding: 44.5px 60px;
 }
@@ -3343,9 +3389,10 @@ header {
   align-items: flex-start;
   background-color: #93d48632;
   display: flex;
-  height: 250px;
-  margin-left: 34px;
+  height: 120px;
+  margin-right: 200px;
   margin-top: 8px;
+  margin-bottom: 40px;
   min-width: 656px;
   padding: 44.5px 60px;
 }
@@ -3361,9 +3408,11 @@ header {
   align-items: flex-start;
   background-color: #f5e05a52;
   display: flex;
-  height: 250px;
+  height: 120px;
   justify-content: flex-end;
   min-width: 600px;
+  margin-left: 200px;
+  margin-bottom: 40px;
   padding: 48.5px 23px;
 }
 
@@ -3393,10 +3442,11 @@ header {
   align-self: center;
   background-color: #bb7eba5f;
   display: flex;
-  height: 250px;
+  height: 120px;
   justify-content: flex-end;
-  margin-right: 80.0px;
+  margin-left: 200px;
   margin-top: 13px;
+  margin-bottom: 40px;
   min-width: 656px;
   padding: 45.5px 60px;
 }
@@ -3413,6 +3463,26 @@ header {
 }
 
 .bild-eleena {
+height: 100px;
+margin-left: 5px;
+}
+
+.bild-sophia {
+height: 100px;
+margin-left: 1000px;
+}
+
+.bild-lina {
+height: 100px;
+margin-left: 5px;
+}
+
+.bild-pascal {
+height: 100px;
+margin-left: 1000px;
+}
+
+.bild-maurice {
 height: 100px;
 margin-left: 5px;
 }
