@@ -43,13 +43,13 @@
   text-decoration: none;
 }
 
-.container-center-horizontal {
+/*.container-center-horizontal {
   display: flex;
   flex-direction: row;
   justify-content: center;
   pointer-events: none;
   width: 100%;
-}
+}*/
 
 .container-center-horizontal > * {
   flex-shrink: 0;
@@ -58,6 +58,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar {
@@ -224,14 +226,10 @@
   white-space: nowrap;
 } */
 
-.backward-arrow {
-  background-image: url(../img/pfad-10-1@1x.png);
-  background-position: 50% 50%;
-  background-size: cover;
-  height: 56px;
-  margin-left: 15px;
-  margin-top: 12px;
-  width: 56px;
+a img{
+  margin-top: 0px;
+  margin-left: -250px;
+  margin-bottom: 0px;
 }
 
 .rechteck-130 {
@@ -903,8 +901,8 @@ background-color: #ffffff;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
-  min-height: 125px;
-  width: 113px;
+  /*min-height: 125px;
+  width: 113px;*/
 }
 
 .ausgang-1 .ber-uns {
@@ -1034,9 +1032,9 @@ background-color: #ffffff;
   align-self: flex-end;
   display: flex;
   flex-direction: column;
-  gap: 17px;
+  /*gap: 17px;
   min-height: 768px;
-  width: 625px;
+  width: 625px;*/
 }
 
 .landing .workshop {
@@ -2833,9 +2831,9 @@ background-color: #ffffff;
 .ausgang .flex-col-1 {
   align-items: flex-start;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;
   min-height: 125px;
-  width: 113px;
+  width: 113px;*/
 }
 
 .ausgang .ber-uns {
@@ -3274,9 +3272,9 @@ header {
   align-items: flex-start;
   background-color: #e3e3e3;
   display: flex;
-  height: 3440px;
-  padding: 203px 96px;
-  width: 1920px;
+  /*height: 3440px;*/
+  /*padding: 203px 96px;*/
+  /*width: 1920px;*/
 }
 
 
@@ -3303,10 +3301,10 @@ header {
 .web-1920-1 .flex-col-1 {
   align-items: flex-start;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;
   margin-left: 24px;
   min-height: 2817px;
-  width: 830px;
+  width: 830px;*/
 }
 
 .web-1920-1 .overlap-group8 {
@@ -3317,12 +3315,15 @@ header {
   width: 698px;
 }
 
+
 .Titel-über-uns{
   align-items: center;
   background-color: floralwhite;
   display: flex;
   height: 150px;
-  margin-left: 600px;
+  margin-top: -500px;
+  margin-left: 300px;
+  margin-right: 300px;
   min-width: 656px;
   padding: 44.5px 60px;
   color: var(--black);
@@ -3331,10 +3332,11 @@ header {
   font-weight: 700;
   left: 5px;
   line-height: 120px;
-  position: absolute;
+  position: top;
   top: 54px;
   white-space: nowrap;
 }
+
 
 .Text-Passion-Pro {
 margin-bottom: 40px;
@@ -3367,11 +3369,12 @@ margin-bottom: 20px;
   display: flex;
   height: 120px;
   margin-left: 200px;
-  margin-top: 8px;
+  margin-top: -115px;
   margin-bottom: 40px;
   min-width: 656px;
   padding: 44.5px 60px;
 }
+
 
 .web-1920-1 .besch-sophia {
   align-items: flex-start;
@@ -3379,7 +3382,7 @@ margin-bottom: 20px;
   display: flex;
   height: 120px;
   margin-right: 200px;
-  margin-top: 8px;
+  margin-top: -115px;
   margin-bottom: 40px; 
   min-width: 656px;
   padding: 44.5px 60px;
@@ -3391,7 +3394,7 @@ margin-bottom: 20px;
   display: flex;
   height: 120px;
   margin-right: 200px;
-  margin-top: 8px;
+  margin-top: -115px;
   margin-bottom: 40px;
   min-width: 656px;
   padding: 44.5px 60px;
@@ -3411,6 +3414,7 @@ margin-bottom: 20px;
   height: 120px;
   justify-content: flex-end;
   min-width: 600px;
+  margin-top: -115px;;
   margin-left: 200px;
   margin-bottom: 40px;
   padding: 48.5px 23px;
@@ -3445,7 +3449,7 @@ margin-bottom: 20px;
   height: 120px;
   justify-content: flex-end;
   margin-left: 200px;
-  margin-top: 13px;
+  margin-top: -115px;
   margin-bottom: 40px;
   min-width: 656px;
   padding: 45.5px 60px;
@@ -3465,11 +3469,12 @@ margin-bottom: 20px;
 .bild-eleena {
 height: 100px;
 margin-left: 5px;
+
 }
 
 .bild-sophia {
 height: 100px;
-margin-left: 1000px;
+margin-left: 1300px;
 }
 
 .bild-lina {
@@ -3479,7 +3484,7 @@ margin-left: 5px;
 
 .bild-pascal {
 height: 100px;
-margin-left: 1000px;
+margin-left: 1300px;
 }
 
 .bild-maurice {
