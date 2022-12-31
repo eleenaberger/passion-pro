@@ -143,6 +143,7 @@ font-size: var(--font-size-xl)
   width: 546px;
 }
 
+<<<<<<< HEAD
 
 
 .footer {
@@ -231,3 +232,8 @@ background-color: #ffffff;
 
 /*Header*/ 
 
+=======
+.top-events poppins-bold-black-130px {
+margin: 100px;
+}
+>>>>>>> d854966bed2fae8c2f5290b63b079f812a453875
