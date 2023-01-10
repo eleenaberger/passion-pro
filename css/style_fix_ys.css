@@ -370,6 +370,7 @@ padding: 0 15px;
 
 .footer-col h4::before {
   content: '';
+  font-family: "Arial-Bold";
   position: absolute;
   left:0;
   bottom: -10px;
